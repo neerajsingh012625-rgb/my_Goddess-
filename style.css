@@ -13,32 +13,36 @@ body{
 .text{
   position:absolute;
   width:100%;
-  top:15%;
+  top:12%;
   font-size:2em;
   opacity:0;
 }
 
 .stage4{
-  top:10%;
-  font-size:2.3em;
+  top:8%;
+  font-size:2.4em;
   color:#ffd700;
 }
 
 .media{
   position:absolute;
-  bottom:10%;
-  width:100%;
-  display:flex;
-  justify-content:center;
-  gap:15px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
 }
 
 .media img,
 .media video{
-  width:140px;
-  border-radius:12px;
+  width:220px;
+  border-radius:16px;
   opacity:0;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
 }
+
+.media video{width:260px}
 
 #startOverlay{
   position:fixed;
